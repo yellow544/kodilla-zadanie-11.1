@@ -22,14 +22,14 @@ Phone.prototype.printSystemInfo = function () {
 //Utworzenie obiektów 
 
 const iPhone6s = new Phone('Apple', 2000, 'gold', 4.70, 16, 'iOS');
-const SamsungGalaxyS6 = new Phone('Samsung', 1500, 'white', 5.10, 32, 'Android' );
-const SonyXperiaZ5 = new Phone('Sony', 1200, 'black', 5.20, 32, 'Android');
+const samsungGalaxyS6 = new Phone('Samsung', 1500, 'white', 5.10, 32, 'Android');
+const sonyXperiaZ5 = new Phone('Sony', 1200, 'black', 5.20, 32, 'Android');
 
 //Wywołanie metody
 
 iPhone6s.printInfo();
 iPhone6s.printSystemInfo();
-SamsungGalaxyS6.printInfo();
-SamsungGalaxyS6.printSystemInfo();
-SonyXperiaZ5.printInfo();
-SonyXperiaZ5.printSystemInfo();
+samsungGalaxyS6.printInfo();
+samsungGalaxyS6.printSystemInfo();
+sonyXperiaZ5.printInfo();
+sonyXperiaZ5.printSystemInfo();
