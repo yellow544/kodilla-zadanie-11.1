@@ -17,10 +17,7 @@ Phone.prototype.printInfo = function() {
 
 Phone.prototype.printSystemInfo = function () {
 	console.log('The ' + this.brand + ' phone is using system ' + this.system + '.');
-
 }
-
-
 
 //Utworzenie obiektów 
 
